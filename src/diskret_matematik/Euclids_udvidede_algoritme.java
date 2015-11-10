@@ -6,9 +6,10 @@ public class Euclids_udvidede_algoritme {
 		// TODO Auto-generated method stub
 int q,r1,r2,s1=1,s2=0,t1=0,t2=1,x;
 java.util.Scanner input=new java.util.Scanner(System.in);
-System.out.println("angiv først den største værdi efterfulgt af den mindste.");
+System.out.println("angiv forst den storste vaerdi efterfulgt af den mindste.");
 r2=input.nextInt();
 r1=input.nextInt();
+input.close();
 int ra=r2;int rb=r1;
 int k=0;
 while(r2%r1 != 0){
@@ -37,7 +38,7 @@ System.out.println("s_"+k+"="+s1+"-"+q+"*"+s2);
 
 	k++;
 }
-System.out.println("løsningen vil være "+r1+" = "+s2+" * "+ra+" + "+t2+" * "+rb);
+System.out.println("losningen vil vaere "+r1+" = "+s2+" * "+ra+" + "+t2+" * "+rb);
 	}
 
 }
