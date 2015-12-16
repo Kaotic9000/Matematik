@@ -4,8 +4,8 @@ public class Euklids_Metode_GCD {
 
 	public static void main(String[] args) {
 
-		int a = 188;
-		int b = 158;
+		int a = 1644;
+		int b = 952;
 		int z;
 
 		if (b > a) {
