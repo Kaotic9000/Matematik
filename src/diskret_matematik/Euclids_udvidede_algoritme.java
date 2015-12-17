@@ -32,12 +32,14 @@ while(r2%r1 != 0){
 	r2=r1;
 	r1=x;
 	x=s1-q*s2;
+	System.out.print("s_"+k+"="+s1+"-"+q+"*"+s2+"="+x+"\t");	
 	s1=s2;
-System.out.print("s_"+k+"="+s1+"-"+q+"*"+s2+"="+x+"\t");
+
 	s2=x;
 	x=t1-q*t2;
-	t1=t2;	
 	System.out.println("t_"+k+"="+t1+"-"+q+"*"+t2+"="+x+"  |");
+	t1=t2;	
+	
 	t2=x;
 	k++;
 	System.out.println("|"+"\t"+"\t"+"losningen vil vaere "+r1+" = "+s2+" * "+ra+" + "+t2+" * "+rb+"\t"+"\t"+"  |");
